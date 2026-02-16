@@ -46,6 +46,8 @@ Every design review includes concrete artifacts: architecture diagrams, failure 
 9. **Build and Run are distinct disciplines.** Building AI systems and running AI systems require different skills, artifacts, and failure mode awareness.
 10. **AI systems require continuous learning.** Build, Run, Learn is a loop, not a sequence. Systems that don't learn from production feedback degrade.
 
+These beliefs are expanded in my [Mental Models for Production AI](https://prompt-deploy.beehiiv.com/archive?tags=Mental+Models+for+Production+AI) series.
+
 ## Join the Conversation
 
 Have a different take? See a failure mode I missed? Think the cost model is off?
