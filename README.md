@@ -1,10 +1,31 @@
 # AI System Design Notes
 
-Weekly deep dives into real-world AI system design problems — starting from customer scenarios, not technology demos.
+How I think about integrating AI into production systems.
+
+Each design review starts with a realistic customer problem in a professional domain — not a technology demo — and works through a rigorous system design analysis. These are artifacts of a design process: the kind of reasoning I'd bring to a real architecture review.
 
 ---
 
-## Episodes
+## The Approach
+
+Every design review follows the same structure. This isn't a template for its own sake — it's the sequence that surfaces the decisions that actually matter.
+
+1. **System Context & Constraints** — What's the environment? What are the stakes?
+2. **What I Would Not Do** — Before showing the architecture, what's the trap? What looks appealing but breaks?
+3. **Architecture & Data Flow** — Components, interfaces, token budgets, integration points
+4. **Failure Modes & Detection** — How does this go wrong? How would you know? What fails silently?
+5. **Mitigations & Degradation** — What's the fallback? When do humans step in?
+6. **Cost Model** — Real numbers, not "it depends." What does this cost at scale?
+7. **Security & Compliance** — Data privacy, adversarial robustness, governance
+8. **What Would Change My Mind** — Explicit uncertainty. Conditions under which this advice is wrong.
+
+The refusal (step 2) comes early. Showing what you would *not* build — and why — is where engineering judgment lives.
+
+Every design review includes concrete artifacts: architecture diagrams, failure taxonomies, cost tables.
+
+---
+
+## Design Reviews
 
 | #   | Title         | Domain | Date |
 | --- | ------------- | ------ | ---- |
@@ -12,36 +33,12 @@ Weekly deep dives into real-world AI system design problems — starting from cu
 
 ---
 
-## What This Is
-
-Each episode takes a realistic customer problem in a professional domain and works through a rigorous system design analysis:
-
-- **System context & constraints** — What's the environment? What are the stakes?
-- **What I would not do** — Before showing the architecture, what's the trap? What looks appealing but breaks?
-- **Architecture & data flow** — Components, interfaces, token budgets, integration points
-- **Failure modes & detection** — How does this go wrong? How would you know? What fails silently?
-- **Mitigations & degradation** — What's the fallback? When do humans step in?
-- **Cost model** — Real numbers, not "it depends." What does this cost at scale?
-- **Security & compliance** — Data privacy, adversarial robustness, governance
-- **What would change my mind** — Explicit uncertainty. Conditions under which this advice is wrong.
-
-Every episode includes concrete artifacts: architecture diagrams, failure taxonomies, cost tables.
-
 ## What This Is Not
 
 - Not beginner tutorials — assumes comfort with distributed systems, failure mode reasoning, and trade-off discussions
 - Not tool comparisons or vendor reviews
 - Not hype-driven demos or "AI will change everything" content
-- Not a course or learning path — each episode stands alone
-
-## Who This Is For
-
-- **Senior backend, frontend, and full-stack engineers** being asked to "add AI" to existing systems
-- **Tech leads and staff engineers** responsible for system design, risk, and long-term ownership
-- **Engineers transitioning into AI-adjacent work** who want to reason clearly without rebranding as "AI experts"
-- **Engineers who want to demonstrate production-grade AI judgment** to hiring managers, technical founders, or leadership
-
-**Minimum context floor**: This content assumes comfort with concepts like blast radius, graceful degradation, and eventual consistency. If those terms require explanation, this content will feel inaccessible.
+- Not a course or learning path — each design review stands alone
 
 ## Core Beliefs
 
