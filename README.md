@@ -29,7 +29,10 @@ Every design review includes concrete artifacts: architecture diagrams, failure 
 
 | #   | Title         | Domain | Date |
 | --- | ------------- | ------ | ---- |
-| 001 | [AI-Assisted Ticket Triage & Agent Response Suggestion for B2B SaaS Support](design-reviews/001-customer-support-ticket-triage/) | Customer Support | 2026-02-16 |
+| 001 | [AI-Assisted Ticket Triage & Agent Response Suggestion for B2B SaaS Support](design-reviews/
+001-customer-support-ticket-triage/) | Customer Support | 2026-02-16 |
+| 002 | [AI-Assisted Clinical Document Summarization for Hospital Admissions](design-reviews/
+002-clinical-document-summarization/) | Healthcare | 2026-02-23 |
 
 ---
 
