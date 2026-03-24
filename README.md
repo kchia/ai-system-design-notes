@@ -34,6 +34,7 @@ Every design review includes concrete artifacts: architecture diagrams, failure 
 | 003 | [AI-Powered Semantic Product Search for a DTC E-Commerce Brand](design-reviews/003-semantic-product-search/)                     | Healthcare       | 2026-03-01 |
 | 004 | [AI-Assisted Prior Authorization Submission and Payer Policy Matching](design-reviews/004-prior-authorization-submission/)        | Healthcare — RCM | 2026-03-06 |
 | 005 | [Adaptive Content Classification with Policy-as-Code and Human-in-the-Loop Escalation](design-reviews/005-adaptive-content-classification/) | Media & Publishing | 2026-03-15 |
+| 006 | [AI-Assisted Contract Clause Extraction for M&A Due Diligence](design-reviews/006-contract-clause-extraction/)                              | Legal              | 2026-03-22 |
 ---
 
 ## Core Beliefs
