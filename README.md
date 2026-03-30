@@ -35,6 +35,7 @@ Every design review includes concrete artifacts: architecture diagrams, failure 
 | 004 | [AI-Assisted Prior Authorization Submission and Payer Policy Matching](design-reviews/004-prior-authorization-submission/)        | Healthcare — RCM | 2026-03-06 |
 | 005 | [Adaptive Content Classification with Policy-as-Code and Human-in-the-Loop Escalation](design-reviews/005-adaptive-content-classification/) | Media & Publishing | 2026-03-15 |
 | 006 | [AI-Assisted Contract Clause Extraction for M&A Due Diligence](design-reviews/006-contract-clause-extraction/)                              | Legal              | 2026-03-22 |
+| 007 | [Autonomous Medical Coding with Ontology-Grounded ICD-10/CPT Assignment](design-reviews/007-autonomous-medical-coding/)                     | Healthcare — RCM   | 2026-03-30 |
 ---
 
 ## Core Beliefs
